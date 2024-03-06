@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ISP_LAB_1_Lavriv_Ivan.Cocktails_ingredients"
+             Title="Cocktails">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="Gray" />
+                <Setter Property="FontSize" Value="25" />
+                <Setter Property="HorizontalOptions" Value="CenterAndExpand" />
+                <Setter Property="VerticalOptions" Value="CenterAndExpand" />
+                <Setter Property="Margin" Value="0, 0, 0, 0" />
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="FontFamily">
+                    <Setter.Value>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <On Platform="iOS" Value="Arial" />
+                            <On Platform="Android" Value="Arial.ttf#Arial" />
+                            <On Platform="UWP" Value="Assets/Arial.ttf#Arial" />
+                        </OnPlatform>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <!-- фон -->
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Offset="0" Color="#D8BFD8"/>
+            <GradientStop Offset="1" Color="#D8BFD8"/>
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <Grid RowSpacing="160">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <VerticalStackLayout Grid.Row="0" Spacing="5">
+            <Picker x:Name="CocktailPicker " 
+                SelectedIndexChanged="OnCocktailPickerSelectedIndexChanged" 
+                VerticalOptions="Start"
+                HorizontalOptions="Fill"
+                Margin="10"
+                WidthRequest="400" 
+                HeightRequest="50"
+                BackgroundColor="White"/>
+
+            <CollectionView x:Name="IngredientsCollectionView">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                            <Frame>
+                                <Label FontSize="14" TextColor="Gray" Text="{Binding Name}"/>
+                            </Frame>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
+        
+        <Frame Grid.Row="2" WidthRequest="450" HeightRequest="220">
+            <Grid HorizontalOptions="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <!-- Первая часть -->
+                <Label Grid.Row="0" Grid.Column="1" Text="   Меню   " />
+                <Label Grid.Row="1" Grid.Column="0" Text="·Мохито🍸" HorizontalTextAlignment="Center" TextColor="Black" FontSize="16" />
+                <Label Grid.Row="2" Grid.Column="0" Text="·Маргарита🍹" HorizontalTextAlignment="Center" TextColor="Black" FontSize="16" />
+                <Label Grid.Row="3" Grid.Column="0" Text="·Негрони🥃" HorizontalTextAlignment="Center" TextColor="Black" FontSize="16" />
+                <Label Grid.Row="4" Grid.Column="0" Text="·Джин тоник🥃" HorizontalTextAlignment="Center" TextColor="Black" FontSize="16" />
+                <Label Grid.Row="5" Grid.Column="0" Text="·Дайкари🍸" HorizontalTextAlignment="Center" TextColor="Black" FontSize="16" />
+
+                <!-- Вторая часть -->
+                <Label Grid.Row="1" Grid.Column="2" Text="·Текила🍸" HorizontalTextAlignment="Center" TextColor="Black" FontSize="16" />
+                <Label Grid.Row="2" Grid.Column="2" Text="·Белый русский🥃" HorizontalTextAlignment="Center" TextColor="Black" FontSize="16" />
+                <Label Grid.Row="3" Grid.Column="2" Text="·Кровавая Мэри🍷" HorizontalTextAlignment="Center" TextColor="Black" FontSize="16" />
+                <Label Grid.Row="4" Grid.Column="2" Text="·Беллини🍹" HorizontalTextAlignment="Center" TextColor="Black" FontSize="16" />
+                <Label Grid.Row="5" Grid.Column="2" Text="·Олд фешен🥃" HorizontalTextAlignment="Center" TextColor="Black" FontSize="16" />
+            </Grid>
+        </Frame>
+
+    </Grid>
+</ContentPage>

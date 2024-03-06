@@ -1,0 +1,8 @@
+﻿<maui:MauiWinUIApplication
+    x:Class="ISP_LAB_1_Lavriv_Ivan.WinUI.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:maui="using:Microsoft.Maui"
+    xmlns:local="using:ISP_LAB_1_Lavriv_Ivan.WinUI">
+
+</maui:MauiWinUIApplication>

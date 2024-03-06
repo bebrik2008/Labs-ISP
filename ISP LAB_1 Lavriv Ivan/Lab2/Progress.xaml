@@ -1,0 +1,82 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ISP_LAB_1_Lavriv_Ivan.Progress">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <!-- Стили для кнопок -->
+            <Style TargetType="Button">
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="BackgroundColor" Value="#34568B" />
+                <Setter Property="CornerRadius" Value="5" />
+                <Setter Property="Margin" Value="5" />
+                <Setter Property="WidthRequest" Value="200" />
+                <Setter Property="HeightRequest" Value="100" />
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="FontFamily">
+                    <Setter.Value>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <On Platform="iOS" Value="Arial" />
+                            <On Platform="Android" Value="Arial.ttf#Arial" />
+                            <On Platform="UWP" Value="Assets/Arial.ttf#Arial" />
+                        </OnPlatform>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <!-- Стили для надписей -->
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="FontSize" Value="30" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="VerticalOptions" Value="CenterAndExpand" />
+                <Setter Property="Margin" Value="0, 0, 0, 0" />
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="FontFamily">
+                    <Setter.Value>
+                        <OnPlatform x:TypeArguments="x:String">
+                            <On Platform="iOS" Value="Arial" />
+                            <On Platform="Android" Value="Arial.ttf#Arial" />
+                            <On Platform="UWP" Value="Assets/Arial.ttf#Arial" />
+                        </OnPlatform>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <!-- фон -->
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Offset="0" Color="#8383af"/>
+            <GradientStop Offset="1" Color="#8383af"/>
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <Grid RowSpacing="160">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Статус -->
+        <Frame Grid.Row="0" Padding="5" BackgroundColor="LightSlateGray" CornerRadius="5" HeightRequest="110" BorderColor="#8383af">
+            <Label x:Name="StatusInfo" Text="Подготовка к вычислению!" HorizontalTextAlignment="Center" WidthRequest="320" />
+        </Frame>
+
+        <!-- Информация о прогрессе -->
+        <StackLayout Grid.Row="1" Orientation="Vertical" HorizontalOptions="Center" Spacing="20">
+            <Label x:Name="ProgressInfo" Text="Процент вычисления: 0%" HorizontalTextAlignment="Start" WidthRequest="320" FontSize="20"/>
+            <Frame Padding="0" BackgroundColor="#c2c2d6" CornerRadius="5" HeightRequest="20">
+                <ProgressBar x:Name="Bar" Progress="0.0" ProgressColor="White" BackgroundColor="Transparent" />
+            </Frame>
+        </StackLayout>
+
+        <!-- Кнопки управления -->
+        <StackLayout Grid.Row="2" Orientation="Horizontal" HorizontalOptions="Center" Spacing="5">
+            <Button Text="Start" Clicked="OnStartClicked" />
+            <Button Text="Cancel" Clicked="OnCancelClicked" />
+        </StackLayout>
+    </Grid>
+</ContentPage>

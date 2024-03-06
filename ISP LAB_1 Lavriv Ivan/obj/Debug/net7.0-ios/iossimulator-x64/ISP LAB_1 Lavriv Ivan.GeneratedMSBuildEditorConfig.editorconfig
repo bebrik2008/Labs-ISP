@@ -1,0 +1,59 @@
+is_global = true
+build_property.TargetFramework = net7.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ISP_LAB_1_Lavriv_Ivan
+build_property.ProjectDir = C:\Users\pussydestroyer\source\repos\ISP LAB_1 Lavriv Ivan\ISP LAB_1 Lavriv Ivan\
+
+[C:/Users/pussydestroyer/source/repos/ISP LAB_1 Lavriv Ivan/ISP LAB_1 Lavriv Ivan/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ISP_LAB_1_Lavriv_Ivan.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/pussydestroyer/source/repos/ISP LAB_1 Lavriv Ivan/ISP LAB_1 Lavriv Ivan/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ISP_LAB_1_Lavriv_Ivan.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/pussydestroyer/source/repos/ISP LAB_1 Lavriv Ivan/ISP LAB_1 Lavriv Ivan/Lab1/Lab1Page.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ISP_LAB_1_Lavriv_Ivan.Lab1.Lab1Page.xaml
+build_metadata.AdditionalFiles.TargetPath = Lab1\Lab1Page.xaml
+build_metadata.AdditionalFiles.RelativePath = Lab1\Lab1Page.xaml
+
+[C:/Users/pussydestroyer/source/repos/ISP LAB_1 Lavriv Ivan/ISP LAB_1 Lavriv Ivan/Lab2/Progress.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ISP_LAB_1_Lavriv_Ivan.Lab2.Progress.xaml
+build_metadata.AdditionalFiles.TargetPath = Lab2\Progress.xaml
+build_metadata.AdditionalFiles.RelativePath = Lab2\Progress.xaml
+
+[C:/Users/pussydestroyer/source/repos/ISP LAB_1 Lavriv Ivan/ISP LAB_1 Lavriv Ivan/Lab3/Cocktails_Ingredients.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ISP_LAB_1_Lavriv_Ivan.Lab3.Cocktails_Ingredients.xaml
+build_metadata.AdditionalFiles.TargetPath = Lab3\Cocktails_Ingredients.xaml
+build_metadata.AdditionalFiles.RelativePath = Lab3\Cocktails_Ingredients.xaml
+
+[C:/Users/pussydestroyer/source/repos/ISP LAB_1 Lavriv Ivan/ISP LAB_1 Lavriv Ivan/Lab4/Currency_Converter.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ISP_LAB_1_Lavriv_Ivan.Lab4.Currency_Converter.xaml
+build_metadata.AdditionalFiles.TargetPath = Lab4\Currency_Converter.xaml
+build_metadata.AdditionalFiles.RelativePath = Lab4\Currency_Converter.xaml
+
+[C:/Users/pussydestroyer/source/repos/ISP LAB_1 Lavriv Ivan/ISP LAB_1 Lavriv Ivan/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ISP_LAB_1_Lavriv_Ivan.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/pussydestroyer/source/repos/ISP LAB_1 Lavriv Ivan/ISP LAB_1 Lavriv Ivan/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ISP_LAB_1_Lavriv_Ivan.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

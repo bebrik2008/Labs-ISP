@@ -1,0 +1,177 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ISP_LAB_1_Lavriv_Ivan.Lab1Page">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Button">
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="BackgroundColor" Value="#2196F3" />
+                <Setter Property="CornerRadius" Value="8" />
+                <Setter Property="Margin" Value="5" />
+                <Setter Property="WidthRequest" Value="70" />
+                <Setter Property="HeightRequest" Value="60" />
+                <Setter Property="FontSize" Value="24"/>
+            </Style>
+            <Style TargetType="Entry">
+                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="BackgroundColor" Value="White" />
+                <Setter Property="FontSize" Value="32" />
+                <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+                <Setter Property="Keyboard" Value="Numeric" />
+                <Setter Property="Placeholder" Value="0" />
+                <Setter Property="PlaceholderColor" Value="Black" />
+                <Setter Property="Margin" Value="5" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        
+        <ScrollView>
+        <Frame
+            CornerRadius="10"
+            Margin="25"
+            Padding="10"
+            BackgroundColor="LightGray">
+
+                <StackLayout
+                Orientation="Vertical">
+
+                    <Label
+                    Text="Вариант 5&#xA;Вычисление остатка&#xA;от деления (mod)."
+                    VerticalOptions="Center"
+                    Margin="20"
+                    FontSize="20"
+                    FontAttributes="Bold"/>
+
+                <VerticalStackLayout
+                Spacing="0"
+                Padding="30,0"
+                VerticalOptions="Center">
+
+                <Entry
+                    x:Name="CalculationEntry"
+                    Text=""
+                    FontSize="32"
+                    HorizontalOptions="Center"
+                    MaxLength="16"
+                    WidthRequest="320" 
+                    IsReadOnly="True" />
+                
+                
+                <StackLayout
+                    Orientation="Horizontal"
+                    HorizontalOptions="CenterAndExpand"
+                    Spacing="0">
+                    <Button
+                        Text="⌦"
+                        Clicked="OnDelClicked" 
+                        WidthRequest = "96" 
+                        HeightRequest = "50" 
+                        FontSize = "20"/>
+                    <Button
+                        Text="%"
+                        Clicked="OnModClicked"
+                        WidthRequest = "96" 
+                        HeightRequest = "50" 
+                        FontSize = "20"/>
+                    <Button
+                        Text="√"
+                        Clicked="OnSqrtClicked" 
+                        WidthRequest = "96" 
+                        HeightRequest = "50" 
+                        FontSize = "20"/>
+                </StackLayout>
+                
+                <StackLayout
+                    Orientation="Horizontal"
+                    HorizontalOptions="CenterAndExpand"
+                    Spacing="0">
+
+                    <Button
+                        Text="7"
+                        Clicked="OnNumberClicked" />
+                    <Button
+                        Text="8"
+                        Clicked="OnNumberClicked" />
+                    <Button
+                        Text="9"
+                        Clicked="OnNumberClicked" />
+                    <Button
+                        Text="/"
+                        Clicked="OnOperatorClicked" />
+                </StackLayout>
+
+                <StackLayout
+                    Orientation="Horizontal"
+                    HorizontalOptions="CenterAndExpand"
+                    Spacing="0">
+                    <Button
+                        Text="4"
+                        Clicked="OnNumberClicked" />
+                    <Button
+                        Text="5"
+                        Clicked="OnNumberClicked" />
+                    <Button
+                        Text="6"
+                        Clicked="OnNumberClicked" />
+                    <Button
+                        Text="*"
+                        Clicked="OnOperatorClicked" />
+                </StackLayout>
+
+                <StackLayout
+                    Orientation="Horizontal"
+                    HorizontalOptions="CenterAndExpand"
+                    Spacing="0">
+                    <Button
+                        Text="1"
+                        Clicked="OnNumberClicked" />
+                    <Button
+                        Text="2"
+                        Clicked="OnNumberClicked" />
+                    <Button
+                        Text="3"
+                        Clicked="OnNumberClicked" />
+                    <Button
+                        Text="-"
+                        Clicked="OnOperatorClicked" />
+                </StackLayout>
+
+                <StackLayout
+                    Orientation="Horizontal"
+                    HorizontalOptions="CenterAndExpand"
+                    Spacing="0">
+                    <Button
+                        Text="C"
+                        Clicked="OnClearClicked" 
+                        BackgroundColor="Grey"/>
+                    <Button
+                        Text="0"
+                        Clicked="OnNumberClicked" />
+                    <Button
+                        Text="="
+                        Clicked="OnEqualClicked"
+                        BackgroundColor="Orange" />
+                    <Button
+                        Text="+"
+                        Clicked="OnOperatorClicked" />
+                </StackLayout>
+
+               
+              </VerticalStackLayout>
+            </StackLayout>
+        </Frame>
+    </ScrollView>
+  </Grid>
+
+</ContentPage>
