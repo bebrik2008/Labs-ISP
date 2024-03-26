@@ -1,0 +1,205 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pussydestroyer\\source\\repos\\Lab4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2EBADC9-3816-490F-9738-57235F3222C5}|Lab4\\Lab4.csproj|c:\\users\\pussydestroyer\\source\\repos\\lab4\\lab4\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2EBADC9-3816-490F-9738-57235F3222C5}|Lab4\\Lab4.csproj|solutionrelative:lab4\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2EBADC9-3816-490F-9738-57235F3222C5}|Lab4\\Lab4.csproj|c:\\users\\pussydestroyer\\source\\repos\\lab4\\lab4\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2EBADC9-3816-490F-9738-57235F3222C5}|Lab4\\Lab4.csproj|solutionrelative:lab4\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2EBADC9-3816-490F-9738-57235F3222C5}|Lab4\\Lab4.csproj|c:\\users\\pussydestroyer\\source\\repos\\lab4\\lab4\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2EBADC9-3816-490F-9738-57235F3222C5}|Lab4\\Lab4.csproj|solutionrelative:lab4\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pussydestroyer\\source\\repos\\Lab4\\Lab4\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lab4\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2EBADC9-3816-490F-9738-57235F3222C5}|Lab4\\Lab4.csproj|c:\\users\\pussydestroyer\\source\\repos\\lab4\\lab4\\entities\\rateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2EBADC9-3816-490F-9738-57235F3222C5}|Lab4\\Lab4.csproj|solutionrelative:lab4\\entities\\rateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2EBADC9-3816-490F-9738-57235F3222C5}|Lab4\\Lab4.csproj|c:\\users\\pussydestroyer\\source\\repos\\lab4\\lab4\\entities\\irateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2EBADC9-3816-490F-9738-57235F3222C5}|Lab4\\Lab4.csproj|solutionrelative:lab4\\entities\\irateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2EBADC9-3816-490F-9738-57235F3222C5}|Lab4\\Lab4.csproj|c:\\users\\pussydestroyer\\source\\repos\\lab4\\lab4\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2EBADC9-3816-490F-9738-57235F3222C5}|Lab4\\Lab4.csproj|solutionrelative:lab4\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2EBADC9-3816-490F-9738-57235F3222C5}|Lab4\\Lab4.csproj|c:\\users\\pussydestroyer\\source\\repos\\lab4\\lab4\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2EBADC9-3816-490F-9738-57235F3222C5}|Lab4\\Lab4.csproj|solutionrelative:lab4\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2EBADC9-3816-490F-9738-57235F3222C5}|Lab4\\Lab4.csproj|c:\\users\\pussydestroyer\\source\\repos\\lab4\\lab4\\api\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2EBADC9-3816-490F-9738-57235F3222C5}|Lab4\\Lab4.csproj|solutionrelative:lab4\\api\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2EBADC9-3816-490F-9738-57235F3222C5}|Lab4\\Lab4.csproj|c:\\users\\pussydestroyer\\source\\repos\\lab4\\lab4\\api\\rate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2EBADC9-3816-490F-9738-57235F3222C5}|Lab4\\Lab4.csproj|solutionrelative:lab4\\api\\rate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2EBADC9-3816-490F-9738-57235F3222C5}|Lab4\\Lab4.csproj|c:\\users\\pussydestroyer\\source\\repos\\lab4\\lab4\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2EBADC9-3816-490F-9738-57235F3222C5}|Lab4\\Lab4.csproj|solutionrelative:lab4\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.g.i.cs",
+              "DocumentMoniker": "C:\\Users\\pussydestroyer\\source\\repos\\Lab4\\Lab4\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeDocumentMoniker": "Lab4\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ToolTip": "C:\\Users\\pussydestroyer\\source\\repos\\Lab4\\Lab4\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "RelativeToolTip": "Lab4\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAewEMAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T08:23:53.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\pussydestroyer\\source\\repos\\Lab4\\Lab4\\App.xaml",
+              "RelativeDocumentMoniker": "Lab4\\App.xaml",
+              "ToolTip": "C:\\Users\\pussydestroyer\\source\\repos\\Lab4\\Lab4\\App.xaml",
+              "RelativeToolTip": "Lab4\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-20T20:10:39.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pussydestroyer\\source\\repos\\Lab4\\Lab4\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Lab4\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\pussydestroyer\\source\\repos\\Lab4\\Lab4\\App.xaml.cs",
+              "RelativeToolTip": "Lab4\\App.xaml.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwBgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T20:10:37.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRateService.cs",
+              "DocumentMoniker": "C:\\Users\\pussydestroyer\\source\\repos\\Lab4\\Lab4\\Entities\\IRateService.cs",
+              "RelativeDocumentMoniker": "Lab4\\Entities\\IRateService.cs",
+              "ToolTip": "C:\\Users\\pussydestroyer\\source\\repos\\Lab4\\Lab4\\Entities\\IRateService.cs",
+              "RelativeToolTip": "Lab4\\Entities\\IRateService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T16:23:38.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\pussydestroyer\\source\\repos\\Lab4\\Lab4\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "Lab4\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\pussydestroyer\\source\\repos\\Lab4\\Lab4\\MauiProgram.cs",
+              "RelativeToolTip": "Lab4\\MauiProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T16:04:24.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pussydestroyer\\source\\repos\\Lab4\\Lab4\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Lab4\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\pussydestroyer\\source\\repos\\Lab4\\Lab4\\MainPage.xaml.cs",
+              "RelativeToolTip": "Lab4\\MainPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T16:02:09.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Currency.cs",
+              "DocumentMoniker": "C:\\Users\\pussydestroyer\\source\\repos\\Lab4\\Lab4\\API\\Currency.cs",
+              "RelativeDocumentMoniker": "Lab4\\API\\Currency.cs",
+              "ToolTip": "C:\\Users\\pussydestroyer\\source\\repos\\Lab4\\Lab4\\API\\Currency.cs",
+              "RelativeToolTip": "Lab4\\API\\Currency.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T15:56:07.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RateService.cs",
+              "DocumentMoniker": "C:\\Users\\pussydestroyer\\source\\repos\\Lab4\\Lab4\\Entities\\RateService.cs",
+              "RelativeDocumentMoniker": "Lab4\\Entities\\RateService.cs",
+              "ToolTip": "C:\\Users\\pussydestroyer\\source\\repos\\Lab4\\Lab4\\Entities\\RateService.cs",
+              "RelativeToolTip": "Lab4\\Entities\\RateService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T15:51:24.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Rate.cs",
+              "DocumentMoniker": "C:\\Users\\pussydestroyer\\source\\repos\\Lab4\\Lab4\\API\\Rate.cs",
+              "RelativeDocumentMoniker": "Lab4\\API\\Rate.cs",
+              "ToolTip": "C:\\Users\\pussydestroyer\\source\\repos\\Lab4\\Lab4\\API\\Rate.cs",
+              "RelativeToolTip": "Lab4\\API\\Rate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T15:50:15.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\pussydestroyer\\source\\repos\\Lab4\\Lab4\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Lab4\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\pussydestroyer\\source\\repos\\Lab4\\Lab4\\MainPage.xaml",
+              "RelativeToolTip": "Lab4\\MainPage.xaml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACsAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-20T15:49:43.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\pussydestroyer\\source\\repos\\Lab4\\Lab4\\AppShell.xaml",
+              "RelativeDocumentMoniker": "Lab4\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\pussydestroyer\\source\\repos\\Lab4\\Lab4\\AppShell.xaml",
+              "RelativeToolTip": "Lab4\\AppShell.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-21T07:55:25.518Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
